@@ -1,25 +1,30 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-    color: #fff;
-  }
-  
-  .scroll-container {
-    background: rgb(7, 7, 7);
-    width: 25rem;
-    padding: 30px;
-  }
-  
-  .scroll-div {
-    width: 400px;
-    height: 500px;
-    background: rgb(7, 7, 7);
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  
-  .scroll-object {
+
+}
+body{
+    background: crimson;
+}
+.card{
+    width: 700px;
+    background: #ccc;
     padding: 20px;
-  }
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+/*scrollbar */
+::-webkit-scrollbar{
+    background-color:transparent;
+    width: 10px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #000; 
+    border-radius: 100px;
+    
+
+}

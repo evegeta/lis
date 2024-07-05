@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background: plum;
+    color: #000;
+}
+.cotent {
+    padding: 4rem; 
+}
+section {
+    border:2px solid white;
+    margin: 15px;
+    padding: 25px;
+}
+section h1 {
+    margin: 10px;
+
+ }
+ /* for scroll indicator */
+ .scroll-indicator {
+    height: 5px;
+    width: 10px;
+    top: 10px;
+    left: 3rem;
+    border-radius: 3px;
+ }
+.scroll-indicator .progress {
+    
+}
