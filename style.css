@@ -5,7 +5,7 @@ body {
   color: #ffffff;
   font-family:coursive;
   font-size: .95rem;
-}
+} 
 
 h1{
   text-align: center;
@@ -31,11 +31,21 @@ text-align: center;
   text-decoration: none;
   font-size: 20px;
   height: 20px;
-  width: 30%;
+  width: 30 %;
   padding: 10px 10px;
   margin:0 0 20px 20px;
 border:2px solid rgb(241, 234, 233);
 color: #ffffff;
 border-radius: 10px;
 }
- 
+@media (min-aspect-ratio: 16/9) {
+  #bg-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #bg-video {
+    width: auto;
+    height: 100%;
+  }
